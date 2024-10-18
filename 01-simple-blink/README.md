@@ -1,5 +1,7 @@
 # The ubiquitous blinking led
 
+Make a led blink.
+
 ## Arduino Uno wiring
 
 ![Arduino Uno wiring](kicad/arduino.svg)

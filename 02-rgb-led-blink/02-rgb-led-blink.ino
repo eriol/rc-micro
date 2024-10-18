@@ -27,7 +27,6 @@ void loop() {
   long blue = random(MAX_CHANNEL_COLOR_VALUE);
 
   printRGB(red, green, blue);
-
   analogWrite(RED_PIN, red);
   analogWrite(GREEN_PIN, green);
   analogWrite(BLUE_PIN, blue);

@@ -14,7 +14,15 @@ const uint8_t SONG[] = {
     6, 6, 0, 0, 6, 5,
     5, 4, 4, 3, 3, 2
 };
-const uint8_t NOTE_DURATION[] = {4,4,4,4,4,4,8,4,4,4,4,4,4,8,4,4,4,4,4,4,8,4,4,4,4,4,4,8,4,4,4,4,4,4,8,4,4,4,4,4,4,8};
+const uint8_t NOTE_DURATION[] = {
+    4, 4, 4, 4, 4, 4,
+    8, 4, 4, 4, 4, 4,
+    4, 8, 4, 4, 4, 4,
+    4, 4, 8, 4, 4, 4,
+    4, 4, 4, 8, 4, 4,
+    4, 4, 4, 4, 8, 4,
+    4, 4, 4, 4, 4 ,8
+};
 const uint8_t SONG_SIZE = sizeof(SONG) / sizeof(*SONG);
 
 void play(const uint8_t song[], const uint8_t note_duration[], uint8_t size);
